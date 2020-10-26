@@ -3,6 +3,7 @@ import 'package:prac1/DatabaseHelper.dart';
 import 'package:prac1/HomePage.dart';
 import 'package:prac1/SearchMap.dart';
 import 'package:prac1/designs.dart';
+import 'package:prac1/form.dart';
 
 void main() {
   runApp(myApp());
@@ -19,7 +20,7 @@ class _myAppState extends State<myApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Practice",
-      home: designs(),
+      home: form(),
     );
   }
 }
